@@ -1,8 +1,11 @@
 {
   "name": "@democracy-deutschland/bt-extractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "build/index.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/demokratie-live/bt-extractor"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev --respawn src/dev",
