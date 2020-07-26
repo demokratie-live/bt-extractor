@@ -1,0 +1,23 @@
+{
+  "name": "@democracy-deutschland/bt-extractor",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/dev",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/x-ray": "^2.3.3",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "node-json-color-stringify": "^1.1.0",
+    "p-iteration": "^1.1.8",
+    "x-ray": "^2.3.4",
+    "x2js": "^3.4.0"
+  }
+}
